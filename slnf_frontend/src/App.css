@@ -1,2 +1,36 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+.active {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #4F46E5; /* or your primary color */
+  transition: width 0.3s ease-in-out;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #4F46E5; /* or your primary color */
+  transition: width 0.3s ease-in-out;
+}
+
+.active::after {
+  width: 100%;
+}
+.nav-link:hover::after {
+  width: 100%;
+}

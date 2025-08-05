@@ -13,7 +13,7 @@ const Home = () => {
                 <div className="hero-overlay"></div>
                 <div className="hero-content text-neutral-content text-center">
                     <div className="max-w-md">
-                        <h1 className="mb-5 text-5xl font-bold">Campus Lost and Found </h1>
+                        <h1 className="mb-5 text-5xl font-bold">Southeast University Lost and Found </h1>
                         <p className='mb-5'>Lost something? Found something? Let’s connect the dots.</p>
                         
                         <div className="flex items-center gap-0 w-full">
