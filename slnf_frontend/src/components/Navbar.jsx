@@ -5,7 +5,7 @@ const Navbar = () => {
     const user = true;
     const navcontent = <>
                         <li><NavLink className="nav-link" to={"/"}>Home</NavLink></li>
-                        <li><NavLink className="nav-link" to={"/lost-items"} >Lost Items</NavLink></li>
+                        <li><NavLink className="nav-link" to={"/lost-items"} >Lost & Found Items</NavLink></li>
                         <li><NavLink className="nav-link" to={"/found-items"} >Found Items</NavLink></li>
                         <li><NavLink className="nav-link" to={"/report-lost"} >Report Lost</NavLink></li>
                         <li><NavLink className="nav-link" to={"/report-found"} >Report Found</NavLink></li>
