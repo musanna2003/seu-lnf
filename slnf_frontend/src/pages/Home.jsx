@@ -20,7 +20,7 @@ const Home = () => {
                             <input
                                 type="text"
                                 placeholder="Search lost or found items..."
-                                className="input focus:outline-none rounded-2xl rounded-r-none w-full backdrop-blur bg-black/10 border, border-black/20 shadow"
+                                className="input focus:outline-none rounded-2xl rounded-r-none w-full backdrop-blur bg-white/10 border, border-white/20 shadow"
                             />
                             <button className="btn bg-base-100 shadow-none rounded-2xl rounded-l-none">Search</button>
                         </div>
