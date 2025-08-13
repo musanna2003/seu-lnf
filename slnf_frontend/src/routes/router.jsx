@@ -7,7 +7,7 @@ import Root from "../pages/Root";
 import LostItems from "../pages/LostItems";
 import FoundItems from "../pages/FoundItems";
 import ReportLost from "../pages/ReportLost";
-import ReportFound from "../pages/ReportFound";
+
 import MyListing from "../pages/MyListing";
 const router = createBrowserRouter([
   {
@@ -29,10 +29,6 @@ const router = createBrowserRouter([
         {
           path : "/report-lost",
           element : <ReportLost></ReportLost>
-        },
-        {
-          path : "/report-found",
-          element : <ReportFound></ReportFound>
         },
         {
           path : "/my-listing",
